@@ -11,6 +11,7 @@ public class Client {
             String result = (String) session.createNativeQuery(SQL).getSingleResult();
             System.out.println("MYSQL Version is :: ");
             System.out.println(result);
+            System.out.println("THis is initial commits");
         } catch (Exception e) {
             e.printStackTrace();
         }
